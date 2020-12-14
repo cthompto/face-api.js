@@ -27,10 +27,10 @@ export class DrawFaceLandmarksOptions {
     const { drawLines = true, drawPoints = true, lineWidth, lineColor, pointSize, pointColor } = options
     this.drawLines = drawLines
     this.drawPoints = drawPoints
-    this.lineWidth = lineWidth || 1
-    this.pointSize = pointSize || 2
-    this.lineColor = lineColor || 'rgba(0, 255, 255, 1)'
-    this.pointColor = pointColor || 'rgba(255, 0, 255, 1)'
+    this.lineWidth = lineWidth || .5
+    this.pointSize = pointSize || 1
+    this.lineColor = lineColor || 'rgba(255, 255, 255, 1)'
+    this.pointColor = pointColor || 'rgba(255, 255, 255, 1)'
   }
 }
 
